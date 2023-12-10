@@ -1,0 +1,43 @@
+/* Подключение шрифтов */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+/* Переменные */
+:root {
+    --main-text-color: #1C1C27;
+    --orange-text-color: #FFA542;
+    --black-color: #101010;
+    --gray-color: #838383;
+    --white-color: #FFF;
+}
+
+
+body {
+    font-family: "Montserrat";
+    background-color: #EAEAEA;
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    min-height: 100%;
+    overflow: hidden;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.container {
+    width: 100%;
+    max-width: 1110px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.title {
+    font-weight: 600;
+    font-size: 20px;
+}
