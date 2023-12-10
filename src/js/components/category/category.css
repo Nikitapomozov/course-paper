@@ -1,0 +1,9 @@
+.category {
+    margin-top: 20px;
+}
+
+.category__container p {
+    font-weight: 500;
+    font-size: 15px;
+    color: var(--main-text-color);
+}

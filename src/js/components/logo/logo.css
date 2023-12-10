@@ -1,0 +1,6 @@
+.logo {
+    color: var(--black-color);
+    font-size: 25px;
+    font-weight: 700;
+    text-transform:uppercase;
+}

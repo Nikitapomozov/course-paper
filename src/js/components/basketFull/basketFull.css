@@ -1,0 +1,66 @@
+.basket__total {
+    width: calc(33.3333333333% - 30px);
+    margin-left: auto;
+    background-color: #fff;
+    border-radius: 30px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 21px 0 0;
+}
+
+.basket__total-text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px 20px;
+    font-weight: 600;
+    font-size: 15px;
+    color: var(--main-text-color);
+}
+
+.basket__total-price {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.basket__total-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 65px;
+    padding: 10px;
+    color: var(--white-color);
+    font-size: 17px;
+    text-align: center;
+    background-color: var(--black-color);
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+    font-weight: 500;
+}
+
+.basket__inner {
+    margin-top: 20px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.basket-product {
+    margin-bottom: 15px;
+}
+
+.basket-page__title {
+    margin-top: 0;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.basket__box {
+    width: calc(58.3333333333% - 30px);
+}
+
+.basket-page__title {
+    margin-top: 15px;
+}
+
+.basket__total-price span {
+    margin-left: 5px;
+}
